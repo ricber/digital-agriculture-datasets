@@ -10,6 +10,8 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 
 ## Semantic segmentation
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
+### Synthetic datasets for semantic segmentation
+- **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
 
 ## Object detection
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
@@ -24,6 +26,7 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **The CropAndWeed Dataset: a Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**: https://doi.org/10.1109/WACV56688.2023.00372
 - **The ACRE Crop-Weed Dataset**: https://zenodo.org/records/8102217
 - **ROSE Challenge dataset**: Crop-weed dataset with images collected in different years by different robots - https://www.challenge-rose.fr/en/dataset-download/
+- **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
 
 ## Tracking
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
@@ -33,8 +36,11 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **CitrusFarm Dataset**: CitrusFarm is a multimodal agricultural robotics dataset that provides both multispectral images and navigational sensor data for localization, mapping and crop monitoring tasks - https://ucr-robotics.github.io/Citrus-Farm-Dataset/
 
 ## Robotics
+These are multimodal datasets encompassing data from different sensors like RGB, stereo, and RGB-D cameras, LiDARs, IMUs, GPS, thermal cameras, hyperspectral cameras, etc. Normally, they do not have labels.
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
 - **CitrusFarm Dataset**: CitrusFarm is a multimodal agricultural robotics dataset that provides both multispectral images and navigational sensor data for localization, mapping and crop monitoring tasks - https://ucr-robotics.github.io/Citrus-Farm-Dataset/
+- **A high-resolution, multimodal data set for agricultural robotics: A Ladybird's-eye view of Brassica**: https://doi.org/10.1002/rob.21877
 
 ## Collectors of datasets
-- **Quantitative Plant**: Datasets for classification, image segmentation and phenotyping - https://www.quantitative-plant.org/dataset
+- **Quantitative Plant**: Website that collects datasets for image classification, semantic segmentation and phenotyping - https://www.quantitative-plant.org/dataset
+- **A survey of public datasets for computer vision tasks in precision agriculture**: Collection of datasets for detection and segmentation of weeds and fruits and phenotyping tasks (e.g., damage and disease detection, biomas prediction, yield estimation) - https://doi.org/10.1016/j.compag.2020.105760
