@@ -19,6 +19,7 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **An annotated visual dataset for Automatic weed detection and identification**: https://zenodo.org/records/3906501
 - **GrapeMOTS: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking**: https://doi.org/10.1016/j.dib.2024.110432
 - **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
+- **CitDet: A Benchmark Dataset for Citrus Fruit Detection**: https://robotic-vision-lab.github.io/citdet/
 
 ## Instance segmentation (detection + segmentation)
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
