@@ -25,6 +25,7 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **GrapeMOTS: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking**: https://doi.org/10.1016/j.dib.2024.110432
 - **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
 - **CitDet: A Benchmark Dataset for Citrus Fruit Detection**: https://robotic-vision-lab.github.io/citdet/
+- **WeedCrop Image Dataset**: It includes 2822 images annotated in YOLO v5 PyTorch format - https://www.kaggle.com/datasets/vinayakshanawad/weedcrop-image-dataset
 
 ## Instance segmentation (detection + segmentation)
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
@@ -33,6 +34,7 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **The ACRE Crop-Weed Dataset**: https://zenodo.org/records/8102217
 - **ROSE Challenge dataset**: Crop-weed dataset with images collected in different years by different robots - https://www.challenge-rose.fr/en/dataset-download/
 - **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
+- **The CropAndWeed Dataset: A Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**: 8k high-quality images and about 112k annotated plant instances. In addition to bounding boxes, segmentation masks and stem positions, annotations include a fine-grained classification into 16 crop and 58 weed species, as well as extensive meta-annotations of relevant environmental and recording parameters - https://github.com/cropandweed/cropandweed-dataset/tree/main
 
 ## Tracking
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
