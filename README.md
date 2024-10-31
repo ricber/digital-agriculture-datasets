@@ -7,6 +7,7 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **Weed25: A deep learning dataset for weed identification**: https://doi.org/10.3389/fpls.2022.1053329
 - **A phenotyping weeds image dataset for open scientific research**: https://zenodo.org/records/7598372
 - **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
+- **A Crop/Weed Field Image Dataset for the Evaluation of Computer Vision Based Precision Agriculture Tasks**: 60 RGB annotated images - https://github.com/cwfid/dataset/tree/master
 
 ## Semantic segmentation
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
