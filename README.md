@@ -30,7 +30,6 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 ## Instance segmentation (detection + segmentation)
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
 - **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
-- **The CropAndWeed Dataset: a Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**: https://doi.org/10.1109/WACV56688.2023.00372
 - **The ACRE Crop-Weed Dataset**: https://zenodo.org/records/8102217
 - **ROSE Challenge dataset**: Crop-weed dataset with images collected in different years by different robots - https://www.challenge-rose.fr/en/dataset-download/
 - **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
