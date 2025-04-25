@@ -13,6 +13,7 @@ Agricutural datasets for developing AI and robotics systems applied to agricultu
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
 - **A Crop/Weed Field Image Dataset for the Evaluation of Computer Vision Based Precision Agriculture Tasks**: 60 RGB annotated images - https://github.com/cwfid/dataset/tree/master
 - **WeedMap**: A Large-Scale Semantic Segmentation Crop-Weed Dataset Using Aerial Color and Multispectral Imaging - https://projects.asl.ethz.ch/datasets/doku.php?id=weedmap:remotesensing2018weedmap
+- **WE3DS**: An RGB-D Image Dataset for Semantic Segmentation in Agriculture with 2568 densely annotated semantic label maps containing 17 plant species (crops + weeds) - https://zenodo.org/records/7457983
 ### Scene understanding
 - **RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics**: Semantic segmentation on 2D RGB images and **3D LiDAR pointclouds** - https://github.com/unmannedlab/RELLIS-3D/tree/main
 - **RUGD Dataset**: The RUGD dataset focuses on semantic understanding of unstructured outdoor environments for applications in off-road autonomous navigation. The datset is comprised of video sequences captured from the camera onboard a mobile robot platform - http://rugd.vision/
