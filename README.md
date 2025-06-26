@@ -17,6 +17,9 @@ These datasets provide pixel-wise labels to distinguish between different plant 
 - **A Crop/Weed Field Image Dataset for the Evaluation of Computer Vision Based Precision Agriculture Tasks**: 60 RGB annotated images - https://github.com/cwfid/dataset/tree/master
 - **WeedMap**: A Large-Scale Semantic Segmentation Crop-Weed Dataset Using Aerial Color and Multispectral Imaging - https://projects.asl.ethz.ch/datasets/doku.php?id=weedmap:remotesensing2018weedmap
 - **WE3DS**: An RGB-D Image Dataset for Semantic Segmentation in Agriculture with 2568 densely annotated semantic label maps containing 17 plant species (crops + weeds) - https://zenodo.org/records/7457983
+- **VegAnn: Vegetation Annotation of a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation**: VegAnn contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
+#### Synthetic datasets for Plant Instance & Part Segmentation
+- **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
 ### Scene understanding (2D & 3D Semantic Segmentation)
 These datasets enable holistic scene understanding, including semantic segmentation in both 2D images and 3D point clouds. They are particularly relevant for robotics in natural, off-road, or forested environments.
 - **RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics**: Semantic segmentation on 2D RGB images and **3D LiDAR pointclouds** - https://github.com/unmannedlab/RELLIS-3D/tree/main
@@ -24,9 +27,6 @@ These datasets enable holistic scene understanding, including semantic segmentat
 - **GOOSE dataset**: GOOSE is the German Outdoor and Offroad Dataset and is a 2D & 3D semantic segmentation dataset framework. In contrast to existing datasets like Cityscapes or BDD100K, the focus is on unstructured off-road environments - https://goose-dataset.de/docs/
 - **WildScenes**: The WildScenes dataset is a multi-modal collection of traversals within Australian forests. The dataset is divided into five sequences across two forest locations. These sequences are both across different physical locations and across different times - https://csiro-robotics.github.io/WildScenes/
 - **BotanicGarden**: A robot navigation dataset in a botanic garden of more than 48000m2. Comprehensive sensors are used, including Gray and RGB stereo cameras, spinning and MEMS 3D LiDARs, and low-cost and industrial-grade IMUs. An all-terrain wheeled robot is employed for data collection, traversing through thick woods, riversides, narrow trails, bridges, and grasslands. This yields 33 short and long sequences, forming 17.1km trajectories in total - https://github.com/robot-pesg/BotanicGarden
-- **VegAnn: Vegetation Annotation of a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation**: VegAnn contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
-### Synthetic datasets for semantic segmentation
-- **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
 
 ## Object detection
 These datasets support bounding box annotations for tasks like fruit counting, weed identification, or tracking crop objects across frames.
