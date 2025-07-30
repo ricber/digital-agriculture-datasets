@@ -9,6 +9,7 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **A phenotyping weeds image dataset for open scientific research**: https://zenodo.org/records/7598372
 - **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
 - **DeepWeeds**: A multiclass weed species image dataset consisting of 17,509 images capturing eight different weed species native to Australia in situ with neighbouring flora - https://github.com/AlexOlsen/DeepWeeds
+- **PlantVillage Dataset**: 50,000 expertly curated images on healthy and infected leaves of crops plants through the existing online platform PlantVillage - https://github.com/spMohanty/PlantVillage-Dataset
 
 ## Semantic segmentation
 ### Plant Instance & Part Segmentation
