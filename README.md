@@ -18,6 +18,7 @@ These datasets provide pixel-wise labels to distinguish between different plant 
 - **WeedMap**: A Large-Scale Semantic Segmentation Crop-Weed Dataset Using Aerial Color and Multispectral Imaging - https://projects.asl.ethz.ch/datasets/doku.php?id=weedmap:remotesensing2018weedmap
 - **WE3DS**: An RGB-D Image Dataset for Semantic Segmentation in Agriculture with 2568 densely annotated semantic label maps containing 17 plant species (crops + weeds) - https://zenodo.org/records/7457983
 - **VegAnn: Vegetation Annotation of a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation**: VegAnn contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
+- **Plant Seedlings Dataset**: The Plant Seedlings Dataset contains images of approximately 960 unique plants belonging to 12 species at several growth stages. It comprises annotated RGB images for classification and segmentation tasks - https://vision.eng.au.dk/plant-seedlings-dataset/
 #### Synthetic datasets for Plant Instance & Part Segmentation
 - **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
 ### Scene understanding (2D & 3D Semantic Segmentation)
