@@ -76,3 +76,8 @@ These datasets support autonomous navigation, localization, and mapping in agric
 ## Tools to create synthetic datasets
 - **CropCraft**: CropCraft is a python script that generates 3D models of crop fields, specialized in real-time simulation of robotics applications - https://github.com/Romea/cropcraft
 - **TomatoSynth**: TomatoSynth provides realistic synthetic tomato plants training data for deep learning applications, reducing the need for manual annotation and allowing customization for specific greenhouse environments, thus advancing automation in agriculture - https://github.com/SCT-lab/TomatoSynth
+
+## Contributing
+Contributions are very welcome! 🚜🌱  
+If you know of additional datasets, tools, or surveys that fit into this list, please feel free to open an issue or submit a pull request.  
+Just make sure to provide a short description and a valid link so that the resource can be easily integrated.
