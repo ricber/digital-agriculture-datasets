@@ -56,6 +56,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 ### Disease and Plant Health datasets
 - **Rice Disease Dataset**: 470 images with 1,956 bounding box annotations across 3 classes (Bacterial Blight, Brown Spot, Rice Blast) - https://www.kaggle.com/dsv/2481060
 - **Multispectral Potato Plants Images**: 360 RGB image patches (750×750 px) with bounding box annotations for object detection tasks in potato crop health assessment - https://datasetninja.com/multispectral-potato-plants-images
+- **PlantDoc**: 2,482 images with 8,595 bounding-box annotations across 29 classes, including diseases like Corn Leaf Blight, Tomato Septoria Leaf Spot, and Potato Early Blight. [Data](https://github.com/pratikkayal/PlantDoc-Object-Detection-Dataset), [Paper](https://doi.org/10.1145/3371158.3371196)
 
 ## Instance segmentation (detection + segmentation)
 These datasets provide both bounding boxes and segmentation masks for precise object identification, often with species-level annotations.
