@@ -1,6 +1,31 @@
 # Digital Agriculture Datasets
 This curated list gathers publicly available datasets supporting the development of artificial intelligence and robotics solutions for agriculture. The datasets are organized by task—ranging from image classification to robotic navigation—and span different sensing modalities, including RGB, multispectral, hyperspectral, and 3D LiDAR. These resources are useful for training and evaluating machine learning models, especially in precision agriculture, crop monitoring, weed detection, and off-road autonomous navigation.
 
+---
+
+## 📖 Index
+
+1. [Image Classification](#image-classification)  
+2. [Semantic Segmentation](#semantic-segmentation)  
+   - [Crop and Weed](#crop-and-weed-datasets)  
+   - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets)  
+   - [Disease and Plant Health](#disease-and-plant-health-datasets)  
+   - [Scene Understanding (2D & 3D)](#scene-understanding-datasets-2d--3d-semantic-segmentation)  
+3. [Object Detection](#object-detection)  
+   - [Crop and Weed](#crop-and-weed-datasets-1)  
+   - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets-1)  
+   - [Disease and Plant Health](#disease-and-plant-health-datasets-1)  
+4. [Instance Segmentation](#instance-segmentation-detection--segmentation)  
+   - [Crop and Weed](#crop-and-weed-datasets-2)  
+   - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets-2)  
+5. [Tracking](#tracking)  
+6. [Hyperspectral and Multispectral Imaging](#hyperspectral-and-multispectral-imaging)  
+7. [Robotics](#robotics)  
+8. [Collectors of Datasets](#collectors-of-datasets)  
+9. [Tools to Create Synthetic Datasets](#tools-to-create-synthetic-datasets)  
+
+---
+
 ## Image classification
 Datasets in this section are designed for tasks like plant species identification or detection of crop diseases and nutrient deficiencies using single-label classification of images.
 - **PlantCLEF2022**: Image-based plant identification at global scale - https://www.imageclef.org/plantclef2022
