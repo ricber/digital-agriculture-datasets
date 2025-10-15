@@ -10,6 +10,7 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
 - **DeepWeeds**: A multiclass weed species image dataset consisting of 17,509 images capturing eight different weed species native to Australia in situ with neighbouring flora - https://github.com/AlexOlsen/DeepWeeds
 - **PlantVillage Dataset**: 50,000 expertly curated images on healthy and infected leaves of crops plants through the existing online platform PlantVillage - https://github.com/spMohanty/PlantVillage-Dataset
+- **Plant Seedlings Dataset**: The Plant Seedlings Dataset contains 5,539 images images featuring plants belonging to 12 species at several growth stages - Data: https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data - Paper: https://arxiv.org/abs/1711.05458
 
 ## Semantic segmentation
 ### Plant Instance & Part Segmentation
@@ -17,9 +18,8 @@ These datasets provide pixel-wise labels to distinguish between different plant 
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
 - **A Crop/Weed Field Image Dataset for the Evaluation of Computer Vision Based Precision Agriculture Tasks**: 60 RGB annotated images - https://github.com/cwfid/dataset/tree/master
 - **WeedMap**: A Large-Scale Semantic Segmentation Crop-Weed Dataset Using Aerial Color and Multispectral Imaging - https://projects.asl.ethz.ch/datasets/doku.php?id=weedmap:remotesensing2018weedmap
-- **WE3DS**: A dataset of RGB-D images acquired through a ground vehicle, with 2,568 densely annotated semantic label maps containing 17 plant species (7 crops + 10 weeds) - https://zenodo.org/records/7457983
+- **WE3DS**: A dataset of RGB-D images acquired through a ground vehicle, with 2,568 annotated images containing 17 plant species (7 crops + 10 weeds) - https://zenodo.org/records/7457983
 - **VegAnn: Vegetation Annotation of a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation**: VegAnn contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
-- **Plant Seedlings Dataset**: The Plant Seedlings Dataset contains images of approximately 960 unique plants belonging to 12 species at several growth stages. It comprises annotated RGB images for classification and segmentation tasks - https://vision.eng.au.dk/plant-seedlings-dataset/
 #### Synthetic datasets for Plant Instance & Part Segmentation
 - **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
 ### Scene understanding (2D & 3D Semantic Segmentation)
@@ -32,21 +32,24 @@ These datasets enable holistic scene understanding, including semantic segmentat
 
 ## Object detection
 These datasets support bounding box annotations for tasks like fruit counting, weed identification, or tracking crop objects across frames.
+### Crop and Weed datasets
+- **WeedCrop Image Dataset**: It includes 2822 images annotated in YOLO v5 PyTorch format - https://www.kaggle.com/datasets/vinayakshanawad/weedcrop-image-dataset
+- **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
+- **The Dataset of annotated food crops and weed**: The dataset contains 1,118 images and 7,853 manual annotations of food crops and weeds in their early seedling stages. The dataset was collected in several locations in Latvia and describes eight weed and six food species - Data: http://doi.org/10.17632/nj4vtk4tt6.1 - Paper: http://doi.org/10.1016/j.dib.2020.105833
+### Fruit datasets
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
 - **ACFR Orchard Fruit Dataset**: https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
 - **GrapeMOTS: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking**: https://doi.org/10.1016/j.dib.2024.110432
-- **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
 - **CitDet: A Benchmark Dataset for Citrus Fruit Detection**: https://robotic-vision-lab.github.io/citdet/
-- **WeedCrop Image Dataset**: It includes 2822 images annotated in YOLO v5 PyTorch format - https://www.kaggle.com/datasets/vinayakshanawad/weedcrop-image-dataset
 
 ## Instance segmentation (detection + segmentation)
 These datasets provide both bounding boxes and segmentation masks for precise object identification, often with species-level annotations.
 ### Crop and Weed datasets
-- **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
+- **The Sorghum Weed Dataset**: The dataset contains 5555 manually pixel-wise annotated instances from 252 images which contain sorghum, grass weed, and broadleaf weed samplings that can be used for object detection, instance segmentation, and semantic segmentation - https://doi.org/10.1016/j.dib.2023.109935
 - **The ACRE Crop-Weed Dataset**: Crop-weed dataset containing 1000 RGB images featuring two crop species (maize and bean) and four weed species - https://zenodo.org/records/8102217
 - **ROSE Challenge dataset**: Crop-weed dataset containing RGB images collected over three different years by four different robots, featuring two crop species (maize and bean) and four weed species - https://www.challenge-rose.fr/en/dataset-download/
   - **WeedElec team images**: This is an extra set of 83 field images containing 2489 instances of crop and weed specimens collected and annotated by the WeedElec team that participated in the ROSE challenge - Data: https://zenodo.org/records/3906501 - Paper: https://doi.org/10.1002/aps3.11373
-- **The CropAndWeed Dataset: A Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**: 8k high-quality images and about 112k annotated plant instances. In addition to bounding boxes, segmentation masks and stem positions, annotations include a fine-grained classification into 16 crop and 58 weed species, as well as extensive meta-annotations of relevant environmental and recording parameters - https://github.com/cropandweed/cropandweed-dataset/tree/main
+- **The CropAndWeed Dataset**: 8k high-quality images and about 112k annotated plant instances. In addition to bounding boxes, segmentation masks and stem positions, annotations include a fine-grained classification into 16 crop and 58 weed species, as well as extensive meta-annotations of relevant environmental and recording parameters - https://github.com/cropandweed/cropandweed-dataset/tree/main
 ### Fruit datasets
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
 - **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
@@ -83,5 +86,5 @@ These datasets support autonomous navigation, localization, and mapping in agric
 
 ## Contributing
 Contributions are very welcome! 🚜🌱  
-If you know of additional datasets, tools, or surveys that fit into this list, please feel free to open an issue or submit a pull request.  
-Just make sure to provide a short description and a valid link so that the resource can be easily integrated.
+If you know of additional datasets, tools, or surveys that fit into this list, please feel free to open an issue or submit a pull request.
+Just make sure to include a short description with the dataset size (number of samples, number of labels, etc.), the types of data, and a valid link so the resource can be easily integrated.
