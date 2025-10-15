@@ -67,11 +67,13 @@ These datasets provide both bounding boxes and segmentation masks for precise ob
 - **Sweet Pepper Dataset**: 620 RGB-D images (1280×720 px) with 6,422 labeled objects across 8 classes (green fruit, red fruit, green peduncle, yellow fruit, red peduncle, yellow peduncle, orange fruit, orange peduncle), annotated for instance segmentation, semantic segmentation, and object detection tasks in greenhouse environments - https://www.kaggle.com/datasets/lemontyc/sweet-pepper/data
 - **StrawDI_Db1 (Strawberry Digital Images Dataset)**: 3,100 high-resolution images (1008×756 px) with 17,938 pixel-level annotations of strawberries, captured under real-world conditions in 20 plantations across 150 hectares in Huelva, Spain. - Data: https://strawdi.github.io/ - Paper: https://doi.org/10.1016/j.compag.2020.105736
 - **Paddy Rice Imagery Dataset for Panicle Segmentation**: 400 high-resolution UAV images (4096×2160 px) with 51,730 pixel-level annotations of rice panicles, captured during the heading, flowering, and ripening stages. Includes manual and semi-supervised annotations - https://doi.org/10.5281/zenodo.4444741
+- **Apple MOTS**: 2,198 high-resolution images with 105,559 pixel-level instance segmentation annotations of apples in MOTS format, captured using UAVs and wearable sensors in an orchard. - https://doi.org/10.5281/zenodo.5939726
 
 ## Tracking
 Tracking datasets provide annotated object trajectories across frames, useful for temporal consistency in detection and behavior prediction.
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
 - **GrapeMOTS: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking**: https://doi.org/10.1016/j.dib.2024.110432
+- **Apple MOTS**: 2,198 high-resolution images with 105,559 pixel-level instance segmentation annotations of apples in MOTS format, captured using UAVs and wearable sensors in an orchard. - https://doi.org/10.5281/zenodo.5939726
 
 ## Hyperspectral and Multispectral imaging
 - **CitrusFarm Dataset**: CitrusFarm is a multimodal agricultural robotics dataset that provides both multispectral images and navigational sensor data for localization, mapping and crop monitoring tasks - https://ucr-robotics.github.io/Citrus-Farm-Dataset/
