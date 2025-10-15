@@ -44,6 +44,8 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **CitDet**: A Benchmark Dataset for Citrus Fruit Detection - https://robotic-vision-lab.github.io/citdet/
 - **deepNIR Fruit Detection**: 4,295 RGB + (synthetic) NIR images annotated with 161,979 bounding boxes over 11 fruit / crop classes (apple, avocado, capsicum, mango, orange, rockmelon, strawberry, blueberry, cherry, kiwi, wheat) - https://doi.org/10.5281/zenodo.6324489
 - **Strawberry Dataset for Object Detection**: 813 images with 4,568 labeled objects across 3 classes (ripe, peduncle, unripe), annotated for object detection tasks in strawberry harvesting automation - https://doi.org/10.5281/zenodo.6126677
+### Disease datasets
+- **Rice Disease Dataset**: 470 images with 1,956 bounding box annotations across 3 classes (Bacterial Blight, Brown Spot, Rice Blast) - https://www.kaggle.com/dsv/2481060
 
 ## Instance segmentation (detection + segmentation)
 These datasets provide both bounding boxes and segmentation masks for precise object identification, often with species-level annotations.
