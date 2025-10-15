@@ -39,6 +39,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
 - **The Dataset of annotated food crops and weed**: The dataset contains 1,118 images and 7,853 manual annotations of food crops and weeds in their early seedling stages. The dataset was collected in several locations in Latvia and describes eight weed and six food species - Data: http://doi.org/10.17632/nj4vtk4tt6.1 - Paper: http://doi.org/10.1016/j.dib.2020.105833
 - **Sesame Crop and Weed Detection** — Dataset with 1,300 RGB images (512×512) of sesame crops and weeds, including 2,072 annotated bounding boxes for object detection in precision agriculture - https://www.kaggle.com/datasets/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes
+- **WeedMaize Dataset**: 7,784 images with 121,635 bounding-box annotations across 18 classes (e.g., maize, Cyperus rotundus, Solanum nigrum, Echinochloa crus-galli). - https://doi.org/10.5281/zenodo.5106795
 ### Plant Instance and Plant Part datasets
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
 - **ACFR Orchard Fruit Dataset**: https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
