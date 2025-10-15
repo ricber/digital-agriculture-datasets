@@ -7,7 +7,7 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **Deep Learning for Non-Invasive Diagnosis of Nutrient Deficiencies in Sugar Beet Using RGB Images**: https://zenodo.org/records/4106221#.YqdMcexBzon
 - **Weed25: A deep learning dataset for weed identification**: https://doi.org/10.3389/fpls.2022.1053329
 - **A phenotyping weeds image dataset for open scientific research**: https://zenodo.org/records/7598372
-- **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
+- **The Sorghum Weed Classification Dataset**: The dataset contains 4312 data samples for addressing crop-weed classification problems. - https://doi.org/10.1016/j.dib.2023.109935
 - **DeepWeeds**: A multiclass weed species image dataset consisting of 17,509 images capturing eight different weed species native to Australia in situ with neighbouring flora - https://github.com/AlexOlsen/DeepWeeds
 - **PlantVillage Dataset**: 50,000 expertly curated images on healthy and infected leaves of crops plants through the existing online platform PlantVillage - https://github.com/spMohanty/PlantVillage-Dataset
 - **Plant Seedlings Dataset**: The Plant Seedlings Dataset contains 5,539 images images featuring plants belonging to 12 species at several growth stages - Data: https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data - Paper: https://arxiv.org/abs/1711.05458
@@ -38,7 +38,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
 - **The Dataset of annotated food crops and weed**: The dataset contains 1,118 images and 7,853 manual annotations of food crops and weeds in their early seedling stages. The dataset was collected in several locations in Latvia and describes eight weed and six food species - Data: http://doi.org/10.17632/nj4vtk4tt6.1 - Paper: http://doi.org/10.1016/j.dib.2020.105833
 - **Sesame Crop and Weed Detection** — Dataset with 1,300 RGB images (512×512) of sesame crops and weeds, including 2,072 annotated bounding boxes for object detection in precision agriculture - https://www.kaggle.com/datasets/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes
-### Fruit datasets
+### Plant Instance and Plant Part datasets
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
 - **ACFR Orchard Fruit Dataset**: https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
 - **GrapeMOTS**: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking - https://doi.org/10.1016/j.dib.2024.110432
@@ -54,17 +54,17 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 ## Instance segmentation (detection + segmentation)
 These datasets provide both bounding boxes and segmentation masks for precise object identification, often with species-level annotations.
 ### Crop and Weed datasets
-- **The Sorghum Weed Dataset**: The dataset contains 5555 manually pixel-wise annotated instances from 252 images which contain sorghum, grass weed, and broadleaf weed samplings that can be used for object detection, instance segmentation, and semantic segmentation - https://doi.org/10.1016/j.dib.2023.109935
+- **The Sorghum Weed Segmentation Dataset**: The dataset contains 5555 manually pixel-wise annotated instances from 252 images which contain sorghum, grass weed, and broadleaf weed samplings that can be used for object detection, instance segmentation, and semantic segmentation - https://doi.org/10.1016/j.dib.2023.109935
 - **Carrot-Weed Dataset**: 39 RGB images with 745 pixel-level annotations of young carrot seedlings and weeds, captured under varying light conditions in Negotino, North Macedonia. Suitable for instance segmentation, semantic segmentation, and object detection tasks. - https://github.com/lameski/rgbweeddetection
 - **The ACRE Crop-Weed Dataset**: Crop-weed dataset containing 1000 RGB images featuring two crop species (maize and bean) and four weed species - https://zenodo.org/records/8102217
 - **ROSE Challenge dataset**: Crop-weed dataset containing RGB images collected over three different years by four different robots, featuring two crop species (maize and bean) and four weed species - https://www.challenge-rose.fr/en/dataset-download/
   - **WeedElec team images**: This is an extra set of 83 field images containing 2489 instances of crop and weed specimens collected and annotated by the WeedElec team that participated in the ROSE challenge - Data: https://zenodo.org/records/3906501 - Paper: https://doi.org/10.1002/aps3.11373
 - **The CropAndWeed Dataset**: 8k high-quality images and about 112k annotated plant instances. In addition to bounding boxes, segmentation masks and stem positions, annotations include a fine-grained classification into 16 crop and 58 weed species, as well as extensive meta-annotations of relevant environmental and recording parameters - https://github.com/cropandweed/cropandweed-dataset/tree/main
-### Fruit datasets
+### Plant Instance and Plant Part datasets
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
 - **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
 - **Sweet Pepper Dataset**: 620 RGB-D images (1280×720 px) with 6,422 labeled objects across 8 classes (green fruit, red fruit, green peduncle, yellow fruit, red peduncle, yellow peduncle, orange fruit, orange peduncle), annotated for instance segmentation, semantic segmentation, and object detection tasks in greenhouse environments - https://www.kaggle.com/datasets/lemontyc/sweet-pepper/data
-### Plant Instance and Plant Part datasets
+- **StrawDI_Db1 (Strawberry Digital Images Dataset)**: 3,100 high-resolution images (1008×756 px) with 17,938 pixel-level annotations of strawberries, captured under real-world conditions in 20 plantations across 150 hectares in Huelva, Spain. - Data: https://strawdi.github.io/ - Paper: https://doi.org/10.1016/j.compag.2020.105736
 - **Paddy Rice Imagery Dataset for Panicle Segmentation**: 400 high-resolution UAV images (4096×2160 px) with 51,730 pixel-level annotations of rice panicles, captured during the heading, flowering, and ripening stages. Includes manual and semi-supervised annotations - https://doi.org/10.5281/zenodo.4444741
 
 ## Tracking
