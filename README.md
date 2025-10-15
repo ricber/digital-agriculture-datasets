@@ -22,6 +22,8 @@ These datasets provide pixel-wise labels to distinguish between different plant 
 - **VegAnn: Vegetation Annotation of a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation**: VegAnn contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
 #### Synthetic datasets for Plant Instance & Part Segmentation
 - **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
+### Disease and Plant Health datasets
+- **RoCoLe (Robusta Coffee Leaf Images)**: 1,560 high-resolution images of coffee leaves, annotated for semantic segmentation tasks. Includes 2,329 labeled objects across 7 classes: healthy, unhealthy, rust_level_1, rust_level_2, rust_level_3, rust_level_4, and red_spider_mite. Captured under real-world conditions using a smartphone camera - https://doi.org/10.17632/c5yvn32dzg.2
 ### Scene understanding (2D & 3D Semantic Segmentation)
 These datasets enable holistic scene understanding, including semantic segmentation in both 2D images and 3D point clouds. They are particularly relevant for robotics in natural, off-road, or forested environments.
 - **RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics**: Semantic segmentation on 2D RGB images and **3D LiDAR pointclouds** - https://github.com/unmannedlab/RELLIS-3D/tree/main
