@@ -43,6 +43,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **GrapeMOTS**: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking - https://doi.org/10.1016/j.dib.2024.110432
 - **CitDet**: A Benchmark Dataset for Citrus Fruit Detection - https://robotic-vision-lab.github.io/citdet/
 - **deepNIR Fruit Detection**: 4,295 RGB + (synthetic) NIR images annotated with 161,979 bounding boxes over 11 fruit / crop classes (apple, avocado, capsicum, mango, orange, rockmelon, strawberry, blueberry, cherry, kiwi, wheat) - https://doi.org/10.5281/zenodo.6324489
+- **Strawberry Dataset for Object Detection**: 813 images with 4,568 labeled objects across 3 classes (ripe, peduncle, unripe), annotated for object detection tasks in strawberry harvesting automation - https://doi.org/10.5281/zenodo.6126677
 
 ## Instance segmentation (detection + segmentation)
 These datasets provide both bounding boxes and segmentation masks for precise object identification, often with species-level annotations.
