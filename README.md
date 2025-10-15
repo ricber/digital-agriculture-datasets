@@ -42,7 +42,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 ### Plant Instance and Plant Part datasets
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
 - **ACFR Orchard Fruit Dataset**: https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
-- **GrapeMOTS**: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking - https://doi.org/10.1016/j.dib.2024.110432
+- **GrapeMOTS**: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking - Data: https://doi.org/10.5281/zenodo.10625595 - Paper: https://doi.org/10.1016/j.dib.2024.110432
 - **CitDet**: A Benchmark Dataset for Citrus Fruit Detection - https://robotic-vision-lab.github.io/citdet/
 - **deepNIR Fruit Detection**: 4,295 RGB + (synthetic) NIR images annotated with 161,979 bounding boxes over 11 fruit / crop classes (apple, avocado, capsicum, mango, orange, rockmelon, strawberry, blueberry, cherry, kiwi, wheat) - https://doi.org/10.5281/zenodo.6324489
 - **Strawberry Dataset for Object Detection**: 813 images with 4,568 labeled objects across 3 classes (ripe, peduncle, unripe), annotated for object detection tasks in strawberry harvesting automation - https://doi.org/10.5281/zenodo.6126677
@@ -72,7 +72,7 @@ These datasets provide both bounding boxes and segmentation masks for precise ob
 ## Tracking
 Tracking datasets provide annotated object trajectories across frames, useful for temporal consistency in detection and behavior prediction.
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
-- **GrapeMOTS: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking**: https://doi.org/10.1016/j.dib.2024.110432
+- **GrapeMOTS**: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking - Data: https://doi.org/10.5281/zenodo.10625595 - Paper: https://doi.org/10.1016/j.dib.2024.110432
 - **Apple MOTS**: 2,198 high-resolution images with 105,559 pixel-level instance segmentation annotations of apples in MOTS format, captured using UAVs and wearable sensors in an orchard. - https://doi.org/10.5281/zenodo.5939726
 
 ## Hyperspectral and Multispectral imaging
