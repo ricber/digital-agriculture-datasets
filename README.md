@@ -41,6 +41,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **Sesame Crop and Weed Detection** — Dataset with 1,300 RGB images (512×512) of sesame crops and weeds, including 2,072 annotated bounding boxes for object detection in precision agriculture - https://www.kaggle.com/datasets/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes
 - **WeedMaize Dataset**: 7,784 images with 121,635 bounding-box annotations across 18 classes (e.g., maize, Cyperus rotundus, Solanum nigrum, Echinochloa crus-galli). - https://doi.org/10.5281/zenodo.5106795
 - **CottonWeedDet3**: 848 high-resolution RGB images with 1,532 bounding-box annotations across 3 weed classes (morningglory, carpetweed, palmer amaranth) in cotton cropping systems. [Data](https://doi.org/10.34740/KAGGLE/DSV/4090494)
+- **DeepSeedling**: 5,741 images with 33,255 bounding-box annotations across 2 classes (plant, weed), captured in cotton fields under varying conditions. [Data](https://figshare.com/s/616956f8633c17ceae9b)
 ### Plant Instance and Plant Part datasets
 - **Vineyard UAV Datasets - Tomiño, Pontevedra, Galicia**
   - **UAV RGB Vineyard Dataset with Bunch Labels** — Videos with annotated grape bunches for object detection and tracking collected in 2021. [Data](https://doi.org/10.5281/zenodo.7330951), [Paper](https://www.sciencedirect.com/science/article/pii/S2352340922010514)
