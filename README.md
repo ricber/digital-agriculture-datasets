@@ -13,18 +13,17 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **Plant Seedlings Dataset**: The Plant Seedlings Dataset contains 5,539 images images featuring plants belonging to 12 species at several growth stages - Data: https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data - Paper: https://arxiv.org/abs/1711.05458
 
 ## Semantic segmentation
-### Plant Instance & Part Segmentation
-These datasets provide pixel-wise labels to distinguish between different plant parts, between crops and weeds, or between crop and soil.
+### Crop and Weed datasets
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
-- **A Crop/Weed Field Image Dataset for the Evaluation of Computer Vision Based Precision Agriculture Tasks**: 60 RGB annotated images - https://github.com/cwfid/dataset/tree/master
 - **WeedMap**: A Large-Scale Semantic Segmentation Crop-Weed Dataset Using Aerial Color and Multispectral Imaging - https://projects.asl.ethz.ch/datasets/doku.php?id=weedmap:remotesensing2018weedmap
 - **WE3DS**: A dataset of RGB-D images acquired through a ground vehicle, with 2,568 annotated images containing 17 plant species (7 crops + 10 weeds) - https://zenodo.org/records/7457983
+### Plant Instance and Plant Part datasets
+These datasets provide pixel-wise labels to distinguish between different plant parts, or between plants and soil.
 - **VegAnn: Vegetation Annotation of a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation**: VegAnn contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
-#### Synthetic datasets for Plant Instance & Part Segmentation
-- **Data synthesis methods for semantic segmentation in agriculture: A Capsicum annuum dataset**: https://doi.org/10.1016/j.compag.2017.12.001
+- **The Capsicum annuum dataset**: This dataset consists of per-pixel annotated synthetic (10500) and empirical images (50) of Capsicum annuum, also known as sweet or bell pepper, situated in a commercial greenhouse. Furthermore, the source models to generate the synthetic images are included. Data: https://doi.org/10.4121/uuid:884958f5-b868-46e1-b3d8-a0b5d91b02c0 - Paper: https://doi.org/10.1016/j.compag.2017.12.001
 ### Disease and Plant Health datasets
 - **RoCoLe (Robusta Coffee Leaf Images)**: 1,560 high-resolution images of coffee leaves, annotated for semantic segmentation tasks. Includes 2,329 labeled objects across 7 classes: healthy, unhealthy, rust_level_1, rust_level_2, rust_level_3, rust_level_4, and red_spider_mite. Captured under real-world conditions using a smartphone camera - https://doi.org/10.17632/c5yvn32dzg.2
-### Scene understanding (2D & 3D Semantic Segmentation)
+### Scene understanding datasets (2D & 3D Semantic Segmentation)
 These datasets enable holistic scene understanding, including semantic segmentation in both 2D images and 3D point clouds. They are particularly relevant for robotics in natural, off-road, or forested environments.
 - **RELLIS-3D: A Multi-modal Dataset for Off-Road Robotics**: Semantic segmentation on 2D RGB images and **3D LiDAR pointclouds** - https://github.com/unmannedlab/RELLIS-3D/tree/main
 - **RUGD Dataset**: The RUGD dataset focuses on semantic understanding of unstructured outdoor environments for applications in off-road autonomous navigation. The datset is comprised of video sequences captured from the camera onboard a mobile robot platform - http://rugd.vision/
@@ -48,7 +47,6 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **Strawberry Dataset for Object Detection**: 813 images with 4,568 labeled objects across 3 classes (ripe, peduncle, unripe), annotated for object detection tasks in strawberry harvesting automation - https://doi.org/10.5281/zenodo.6126677
 - **Apple Dataset Benchmark from Orchard Environment**: 2,299 images with 15,439 bounding box annotations of apples, captured under various lighting and seasonal conditions using modern fruiting wall architecture - https://doi.org/10.7273/000001752
 - **Tomato Detection Dataset**: 895 images with 4,930 labeled tomatoes, annotated for object detection tasks in greenhouse environments - https://www.kaggle.com/datasets/andrewmvd/tomato-detection
-
 ### Disease and Plant Health datasets
 - **Rice Disease Dataset**: 470 images with 1,956 bounding box annotations across 3 classes (Bacterial Blight, Brown Spot, Rice Blast) - https://www.kaggle.com/dsv/2481060
 - **Multispectral Potato Plants Images**: 360 RGB image patches (750×750 px) with bounding box annotations for object detection tasks in potato crop health assessment - https://datasetninja.com/multispectral-potato-plants-images
@@ -65,6 +63,8 @@ These datasets provide both bounding boxes and segmentation masks for precise ob
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
 - **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
 - **Sweet Pepper Dataset**: 620 RGB-D images (1280×720 px) with 6,422 labeled objects across 8 classes (green fruit, red fruit, green peduncle, yellow fruit, red peduncle, yellow peduncle, orange fruit, orange peduncle), annotated for instance segmentation, semantic segmentation, and object detection tasks in greenhouse environments - https://www.kaggle.com/datasets/lemontyc/sweet-pepper/data
+### Plant Instance and Plant Part datasets
+- **Paddy Rice Imagery Dataset for Panicle Segmentation**: 400 high-resolution UAV images (4096×2160 px) with 51,730 pixel-level annotations of rice panicles, captured during the heading, flowering, and ripening stages. Includes manual and semi-supervised annotations - https://doi.org/10.5281/zenodo.4444741
 
 ## Tracking
 Tracking datasets provide annotated object trajectories across frames, useful for temporal consistency in detection and behavior prediction.
