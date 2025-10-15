@@ -68,6 +68,7 @@ These datasets provide both bounding boxes and segmentation masks for precise ob
 - **StrawDI_Db1 (Strawberry Digital Images Dataset)**: 3,100 high-resolution images (1008×756 px) with 17,938 pixel-level annotations of strawberries, captured under real-world conditions in 20 plantations across 150 hectares in Huelva, Spain. - Data: https://strawdi.github.io/ - Paper: https://doi.org/10.1016/j.compag.2020.105736
 - **Paddy Rice Imagery Dataset for Panicle Segmentation**: 400 high-resolution UAV images (4096×2160 px) with 51,730 pixel-level annotations of rice panicles, captured during the heading, flowering, and ripening stages. Includes manual and semi-supervised annotations - https://doi.org/10.5281/zenodo.4444741
 - **Apple MOTS**: 2,198 high-resolution images with 105,559 pixel-level instance segmentation annotations of apples in MOTS format, captured using UAVs and wearable sensors in an orchard. - https://doi.org/10.5281/zenodo.5939726
+- **Synthetic Plants Dataset**: 10,000 synthetic RGB-D images with 326,754 pixel-level instance segmentation annotations across 4 classes: leaf, petiole, stem, and fruit. Suitable for instance segmentation, semantic segmentation, and object detection tasks in plant phenotyping. - https://www.kaggle.com/datasets/harlequeen/synthetic-rgbd-images-of-plants
 
 ## Tracking
 Tracking datasets provide annotated object trajectories across frames, useful for temporal consistency in detection and behavior prediction.
