@@ -34,7 +34,6 @@ These datasets enable holistic scene understanding, including semantic segmentat
 These datasets support bounding box annotations for tasks like fruit counting, weed identification, or tracking crop objects across frames.
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
 - **ACFR Orchard Fruit Dataset**: https://data.acfr.usyd.edu.au/ag/treecrops/2016-multifruit/
-- **An annotated visual dataset for Automatic weed detection and identification**: https://zenodo.org/records/3906501
 - **GrapeMOTS: UAV vineyard dataset with MOTS grape bunch annotations recorded from multiple perspectives for enhanced object detection and tracking**: https://doi.org/10.1016/j.dib.2024.110432
 - **CornWeed Dataset: A dataset for training maize and weed object detectors for agricultural machines**: https://zenodo.org/records/7961764
 - **CitDet: A Benchmark Dataset for Citrus Fruit Detection**: https://robotic-vision-lab.github.io/citdet/
@@ -45,7 +44,8 @@ These datasets provide both bounding boxes and segmentation masks for precise ob
 - **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
 - **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
 - **The ACRE Crop-Weed Dataset**: https://zenodo.org/records/8102217
-- **ROSE Challenge dataset**: Crop-weed dataset with images collected in different years by different robots - https://www.challenge-rose.fr/en/dataset-download/
+- **ROSE Challenge dataset**: Crop-weed dataset containing images collected over three different years by four different robots, featuring two crop species (maize and bean) and four weed species - https://www.challenge-rose.fr/en/dataset-download/
+  - **WeedElec team images**: This is an extra set of 83 field images containing 2489 instances of crop and weed specimens collected and annotated by the WeedElec team that participated in the ROSE challenge - Data: https://zenodo.org/records/3906501 - Paper: https://doi.org/10.1002/aps3.11373
 - **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
 - **The CropAndWeed Dataset: A Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**: 8k high-quality images and about 112k annotated plant instances. In addition to bounding boxes, segmentation masks and stem positions, annotations include a fine-grained classification into 16 crop and 58 weed species, as well as extensive meta-annotations of relevant environmental and recording parameters - https://github.com/cropandweed/cropandweed-dataset/tree/main
 
