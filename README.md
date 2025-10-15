@@ -26,16 +26,20 @@ This curated list gathers publicly available datasets supporting the development
 
 ---
 
-## Image classification
-Datasets in this section are designed for tasks like plant species identification or detection of crop diseases and nutrient deficiencies using single-label classification of images.
-- **PlantCLEF2022**: Image-based plant identification at global scale - https://www.imageclef.org/plantclef2022
-- **Deep Learning for Non-Invasive Diagnosis of Nutrient Deficiencies in Sugar Beet Using RGB Images**: https://zenodo.org/records/4106221#.YqdMcexBzon
-- **Weed25: A deep learning dataset for weed identification**: https://doi.org/10.3389/fpls.2022.1053329
-- **A phenotyping weeds image dataset for open scientific research**: https://zenodo.org/records/7598372
-- **The Sorghum Weed Classification Dataset**: The dataset contains 4312 data samples for addressing crop-weed classification problems. - https://doi.org/10.1016/j.dib.2023.109935
-- **DeepWeeds**: A multiclass weed species image dataset consisting of 17,509 images capturing eight different weed species native to Australia in situ with neighbouring flora - https://github.com/AlexOlsen/DeepWeeds
-- **PlantVillage Dataset**: 50,000 expertly curated images on healthy and infected leaves of crops plants through the existing online platform PlantVillage - https://github.com/spMohanty/PlantVillage-Dataset
-- **Plant Seedlings Dataset**: The Plant Seedlings Dataset contains 5,539 images images featuring plants belonging to 12 species at several growth stages - Data: https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data - Paper: https://arxiv.org/abs/1711.05458
+## Image Classification
+
+Datasets in this section are designed for tasks like plant species identification or detection of crop diseases and nutrient deficiencies using single-label classification.
+
+- **PlantCLEF2022** — Image-based plant identification at global scale. [Data](https://www.imageclef.org/plantclef2022)  
+- **Deep Learning for Non-Invasive Diagnosis of Nutrient Deficiencies in Sugar Beet Using RGB Images** — [Data](https://zenodo.org/records/4106221#.YqdMcexBzon)  
+- **Weed25** — Deep learning dataset for weed identification. [Data](https://doi.org/10.3389/fpls.2022.1053329)  
+- **Phenotyping Weeds Image Dataset** — Open scientific research dataset for weed phenotyping. [Data](https://zenodo.org/records/7598372)  
+- **The Sorghum Weed Classification Dataset** — 4,312 samples for crop-weed classification problems. [Data](https://doi.org/10.1016/j.dib.2023.109935)  
+- **DeepWeeds** — 17,509 images of 8 Australian weed species in situ. [Data](https://github.com/AlexOlsen/DeepWeeds)  
+- **PlantVillage Dataset** — 50,000 images of healthy and infected crop leaves. [Data](https://github.com/spMohanty/PlantVillage-Dataset)  
+- **Plant Seedlings Dataset** — 5,539 images of 12 species at different growth stages. [Data](https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data), [Paper](https://arxiv.org/abs/1711.05458)  
+
+---
 
 ## Semantic segmentation
 ### Crop and Weed datasets
