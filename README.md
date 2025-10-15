@@ -47,6 +47,7 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 - **deepNIR Fruit Detection**: 4,295 RGB + (synthetic) NIR images annotated with 161,979 bounding boxes over 11 fruit / crop classes (apple, avocado, capsicum, mango, orange, rockmelon, strawberry, blueberry, cherry, kiwi, wheat) - https://doi.org/10.5281/zenodo.6324489
 - **Strawberry Dataset for Object Detection**: 813 images with 4,568 labeled objects across 3 classes (ripe, peduncle, unripe), annotated for object detection tasks in strawberry harvesting automation - https://doi.org/10.5281/zenodo.6126677
 - **Apple Dataset Benchmark from Orchard Environment**: 2,299 images with 15,439 bounding box annotations of apples, captured under various lighting and seasonal conditions using modern fruiting wall architecture - https://doi.org/10.7273/000001752
+- **Tomato Detection Dataset**: 895 images with 4,930 labeled tomatoes, annotated for object detection tasks in greenhouse environments - https://www.kaggle.com/datasets/andrewmvd/tomato-detection
 
 ### Disease and Plant Health datasets
 - **Rice Disease Dataset**: 470 images with 1,956 bounding box annotations across 3 classes (Bacterial Blight, Brown Spot, Rice Blast) - https://www.kaggle.com/dsv/2481060
