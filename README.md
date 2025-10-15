@@ -41,13 +41,15 @@ These datasets support bounding box annotations for tasks like fruit counting, w
 
 ## Instance segmentation (detection + segmentation)
 These datasets provide both bounding boxes and segmentation masks for precise object identification, often with species-level annotations.
-- **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
+### Crop and Weed datasets
 - **SorghumWeedDataset_Classification and SorghumWeedDataset_Segmentation datasets for classification, detection, and segmentation in deep learning**: https://doi.org/10.1016/j.dib.2023.109935
 - **The ACRE Crop-Weed Dataset**: Crop-weed dataset containing 1000 RGB images featuring two crop species (maize and bean) and four weed species - https://zenodo.org/records/8102217
 - **ROSE Challenge dataset**: Crop-weed dataset containing RGB images collected over three different years by four different robots, featuring two crop species (maize and bean) and four weed species - https://www.challenge-rose.fr/en/dataset-download/
   - **WeedElec team images**: This is an extra set of 83 field images containing 2489 instances of crop and weed specimens collected and annotated by the WeedElec team that participated in the ROSE challenge - Data: https://zenodo.org/records/3906501 - Paper: https://doi.org/10.1002/aps3.11373
-- **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
 - **The CropAndWeed Dataset: A Multi-Modal Learning Approach for Efficient Crop and Weed Manipulation**: 8k high-quality images and about 112k annotated plant instances. In addition to bounding boxes, segmentation masks and stem positions, annotations include a fine-grained classification into 16 crop and 58 weed species, as well as extensive meta-annotations of relevant environmental and recording parameters - https://github.com/cropandweed/cropandweed-dataset/tree/main
+### Fruit datasets
+- **Embrapa Wine Grape Instance Segmentation Dataset – Embrapa WGISD**: https://github.com/thsant/wgisd
+- **MinneApple: A Benchmark Dataset for Apple Detection and Segmentation**: https://github.com/nicolaihaeni/MinneApple
 
 ## Tracking
 Tracking datasets provide annotated object trajectories across frames, useful for temporal consistency in detection and behavior prediction.
