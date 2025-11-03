@@ -1,6 +1,11 @@
 # Digital Agriculture Datasets
 This curated list gathers publicly available datasets supporting the development of artificial intelligence and robotics solutions for agriculture. The datasets are organized by task—ranging from image classification to robotic navigation—and span different sensing modalities, including RGB, multispectral, hyperspectral, and 3D LiDAR. These resources are useful for training and evaluating machine learning models, especially in precision agriculture, crop monitoring, weed detection, and off-road autonomous navigation.
 
+## Contributing
+Contributions are very welcome! 🚜🌱  
+If you know of additional datasets, tools, or surveys that fit into this list, please feel free to open an issue or submit a pull request.
+Just make sure to include a short description with the dataset size (number of samples, number of labels, etc.), the types of data, and a valid link so the resource can be easily integrated.
+
 ---
 
 ## 📖 Index
@@ -131,6 +136,7 @@ These datasets support autonomous navigation, localization, and mapping in agric
 
 ## Collectors of datasets
 - **Dataset Ninja**: https://datasetninja.com/category/agriculture
+- **Weed-AI: A repository of Weed Images in Crops**: https://weed-ai.sydney.edu.au/
 - **Quantitative Plant**: Website that collects datasets for image classification, semantic segmentation and phenotyping - https://www.quantitative-plant.org/dataset
 - **A survey of public datasets for computer vision tasks in precision agriculture**: Collection of datasets for detection and segmentation of weeds and fruits and phenotyping tasks (e.g., damage and disease detection, biomas prediction, yield estimation) - https://doi.org/10.1016/j.compag.2020.105760
 - **Weed database development: An updated survey of public weed datasets and cross-season weed detection adaptation**: A survey of 36 publicly available image datasets for weed recognition (classification, detection, and segmentation) + a new two-season dataset of eight weed classes curated for cross-season modeling - https://doi.org/10.1016/j.ecoinf.2024.102546
@@ -138,8 +144,3 @@ These datasets support autonomous navigation, localization, and mapping in agric
 ## Tools to create synthetic datasets
 - **CropCraft**: CropCraft is a python script that generates 3D models of crop fields, specialized in real-time simulation of robotics applications - https://github.com/Romea/cropcraft
 - **TomatoSynth**: TomatoSynth provides realistic synthetic tomato plants training data for deep learning applications, reducing the need for manual annotation and allowing customization for specific greenhouse environments, thus advancing automation in agriculture - https://github.com/SCT-lab/TomatoSynth
-
-## Contributing
-Contributions are very welcome! 🚜🌱  
-If you know of additional datasets, tools, or surveys that fit into this list, please feel free to open an issue or submit a pull request.
-Just make sure to include a short description with the dataset size (number of samples, number of labels, etc.), the types of data, and a valid link so the resource can be easily integrated.
