@@ -136,6 +136,7 @@ These datasets support autonomous navigation, localization, and mapping in agric
 - **BLT (Bacchus Long Term)**: A multi-session agricultural field dataset collected over months in vineyards (Greece and the UK), featuring seasonal variation, repeated traversal paths and onboard multimodal sensing (RGB-D, LiDAR, navigation). It is designed to support long-term mapping, localisation, crop phenotyping and generalisation studies in robotic agriculture - https://lcas.lincoln.ac.uk/wp/research/data-sets-software/blt/
 
 ## Collectors of datasets
+- **AgML** — An open-source, centralized Python framework for agricultural machine learning. It provides standardized access to public ag-vision datasets (classification, detection, segmentation) — https://github.com/Project-AgML/AgML
 - **Dataset Ninja**: https://datasetninja.com/category/agriculture
 - **Weed-AI: A repository of Weed Images in Crops**: https://weed-ai.sydney.edu.au/
 - **Quantitative Plant**: Website that collects datasets for image classification, semantic segmentation and phenotyping - https://www.quantitative-plant.org/dataset
