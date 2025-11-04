@@ -43,7 +43,8 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **The Sorghum Weed Classification Dataset** — 4,312 samples for crop-weed classification problems. [Paper](https://doi.org/10.1016/j.dib.2023.109935)  
 - **DeepWeeds** — 17,509 images of 8 Australian weed species in situ. [Data](https://github.com/AlexOlsen/DeepWeeds)  
 - **PlantVillage Dataset** — 50,000 images of healthy and infected crop leaves. [Data](https://github.com/spMohanty/PlantVillage-Dataset)  
-- **Plant Seedlings Dataset** — 5,539 images of 12 species at different growth stages. [Data](https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data), [Paper](https://arxiv.org/abs/1711.05458)  
+- **Plant Seedlings Dataset** — 5,539 images of 12 species at different growth stages. [Data](https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data), [Paper](https://arxiv.org/abs/1711.05458)
+- **Pl@ntNet‑300K** — A large-scale plant image collection (~ 306,146 images) covering 1,081 plant species, curated from citizen science observations — [Data](https://doi.org/10.5281/zenodo.4726653), [Paper](https://openreview.net/forum?id=eLYinD0TtIt)
 
 ---
 
