@@ -25,9 +25,10 @@ Just make sure to include a short description with the dataset size (number of s
    - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets-2)  
 5. [Tracking](#tracking)  
 6. [Hyperspectral and Multispectral Imaging](#hyperspectral-and-multispectral-imaging)  
-7. [Robotics](#robotics)  
-8. [Collectors of Datasets](#collectors-of-datasets)  
-9. [Tools to Create Synthetic Datasets](#tools-to-create-synthetic-datasets)  
+7. [Robotics](#robotics)
+8. [Large-Scale and Unlabeled Datasets](#large-scale-phenotyping-and-unlabeled-datasets)
+9. [Collectors of Datasets](#collectors-of-datasets)  
+10. [Tools to Create Synthetic Datasets](#tools-to-create-synthetic-datasets)  
 
 ---
 
@@ -134,6 +135,10 @@ These datasets support autonomous navigation, localization, and mapping in agric
 - **BotanicGarden**: A robot navigation dataset in a botanic garden of more than 48000m2. Comprehensive sensors are used, including Gray and RGB stereo cameras, spinning and MEMS 3D LiDARs, and low-cost and industrial-grade IMUs. An all-terrain wheeled robot is employed for data collection, traversing through thick woods, riversides, narrow trails, bridges, and grasslands. This yields 33 short and long sequences, forming 17.1km trajectories in total - https://github.com/robot-pesg/BotanicGarden
 - **Rosario**: A multi-modal dataset collected in a soybean crop field, comprising over two hours of recorded data from sensors such as stereo infrared camera, color camera, accelerometer, gyroscope, magnetometer, GNSS (Single Point Positioning, Real-Time Kinematic and Post-Processed Kinematic), and wheel odometry. This dataset captures key challenges inherent to robotics in agricultural environments - https://cifasis.github.io/rosariov2/
 - **BLT (Bacchus Long Term)**: A multi-session agricultural field dataset collected over months in vineyards (Greece and the UK), featuring seasonal variation, repeated traversal paths and onboard multimodal sensing (RGB-D, LiDAR, navigation). It is designed to support long-term mapping, localisation, crop phenotyping and generalisation studies in robotic agriculture - https://lcas.lincoln.ac.uk/wp/research/data-sets-software/blt/
+
+## Large-Scale and Unlabeled Datasets
+Collections of agricultural images or sensor data without manual annotations, useful for pretraining, self-supervised learning, domain adaptation, and large-scale phenotyping studies. These datasets provide broad coverage of crops, growth stages, and environmental conditions.
+- **ImAg4Wheat** — A massive annotated/unannotated wheat imagery dataset, aggregating over 2.5 million images across ~2,000 genotypes and ~500 environmental conditions from 10 countries, covering the full growth cycle (2010–2024) — [Data](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat), [Model](https://huggingface.co/PheniX-Lab/FoMo4Wheat), [Paper](https://arxiv.org/abs/2509.06907)
 
 ## Collectors of datasets
 - **AgML** — An open-source, centralized Python framework for agricultural machine learning. It provides standardized access to public ag-vision datasets (classification, detection, segmentation) — https://github.com/Project-AgML/AgML
