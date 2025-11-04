@@ -26,7 +26,7 @@ Just make sure to include a short description with the dataset size (number of s
 5. [Tracking](#tracking)  
 6. [Hyperspectral and Multispectral Imaging](#hyperspectral-and-multispectral-imaging)  
 7. [Robotics](#robotics)
-8. [Large-Scale and Unlabeled Datasets](#large-scale-phenotyping-and-unlabeled-datasets)
+8. [Large-Scale and Unlabeled Datasets](#large-scale-and-unlabeled-datasets)
 9. [Collectors of Datasets](#collectors-of-datasets)  
 10. [Tools to Create Synthetic Datasets](#tools-to-create-synthetic-datasets)  
 
@@ -45,6 +45,7 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **PlantVillage Dataset** — 50,000 images of healthy and infected crop leaves. [Data](https://github.com/spMohanty/PlantVillage-Dataset)  
 - **Plant Seedlings Dataset** — 5,539 images of 12 species at different growth stages. [Data](https://www.kaggle.com/datasets/vbookshelf/v2-plant-seedlings-dataset/data), [Paper](https://arxiv.org/abs/1711.05458)
 - **Pl@ntNet‑300K** — A large-scale plant image collection (~ 306,146 images) covering 1,081 plant species, curated from citizen science observations — [Data](https://doi.org/10.5281/zenodo.4726653), [Paper](https://openreview.net/forum?id=eLYinD0TtIt)
+- **iNatAg** — A large‑scale agricultural image dataset comprising over 4.7 million images of 2,959 crop and weed species, with hierarchical labels (binary crop/weed up to species level), drawn globally from iNaturalist. Enables multi‑class and taxonomic classification in agricultural domains — [Data](https://github.com/Project-AgML/AgML), [Paper](https://arxiv.org/abs/2503.20068)
 
 ---
 
