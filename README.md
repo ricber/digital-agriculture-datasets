@@ -22,13 +22,14 @@ Just make sure to include a short description with the dataset size (number of s
    - [Disease and Plant Health](#disease-and-plant-health-datasets-1)  
 4. [Instance Segmentation](#instance-segmentation-detection--segmentation)  
    - [Crop and Weed](#crop-and-weed-datasets-2)  
-   - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets-2)  
-5. [Tracking](#tracking)  
-6. [Hyperspectral and Multispectral Imaging](#hyperspectral-and-multispectral-imaging)  
-7. [Robotics](#robotics)
-8. [Large-Scale and Unlabeled Datasets](#large-scale-and-unlabeled-datasets)
-9. [Collectors of Datasets](#collectors-of-datasets)  
-10. [Tools to Create Synthetic Datasets](#tools-to-create-synthetic-datasets)  
+   - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets-2)
+5. [Large-Scale and Unlabeled Image Datasets](#large-scale-and-unlabeled-image-datasets)
+6. [3D Plant and Point Cloud Datasets](#3d-plant-and-point-cloud-datasets)
+7. [Tracking](#tracking)  
+8. [Hyperspectral and Multispectral Imaging](#hyperspectral-and-multispectral-imaging)  
+9. [Robotics](#robotics)
+10. [Collectors of Datasets](#collectors-of-datasets)  
+11. [Tools to Create Synthetic Datasets](#tools-to-create-synthetic-datasets)  
 
 ---
 
@@ -116,6 +117,14 @@ These datasets provide both bounding boxes and segmentation masks for precise ob
 - **Apple MOTS**: 2,198 high-resolution images with 105,559 pixel-level instance segmentation annotations of apples in MOTS format, captured using UAVs and wearable sensors in an orchard. - https://doi.org/10.5281/zenodo.5939726
 - **Synthetic Plants Dataset**: 10,000 synthetic RGB-D images with 326,754 pixel-level instance segmentation annotations across 4 classes: leaf, petiole, stem, and fruit. Suitable for instance segmentation, semantic segmentation, and object detection tasks in plant phenotyping. - https://www.kaggle.com/datasets/harlequeen/synthetic-rgbd-images-of-plants
 
+## Large-Scale and Unlabeled Image Datasets
+Collections of agricultural images without manual annotations, useful for pretraining, self-supervised learning, domain adaptation, and large-scale phenotyping studies. These datasets provide broad coverage of crops, growth stages, and environmental conditions.
+- **ImAg4Wheat** — A massive annotated/unannotated wheat imagery dataset, aggregating over 2.5 million images across ~2,000 genotypes and ~500 environmental conditions from 10 countries, covering the full growth cycle (2010–2024) — [Data](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat), [Model](https://huggingface.co/PheniX-Lab/FoMo4Wheat), [Paper](https://arxiv.org/abs/2509.06907)
+
+## 3D Plant and Point Cloud Datasets
+Datasets providing 3D scans, LiDAR, or point clouds of plants for tasks such as segmentation, reconstruction, and phenotyping.
+- **Pheno4D: Spatio‑temporal 3D Plant Point Cloud Dataset** - A high‑resolution, multi‑temporal 3D point cloud dataset of maize and tomato plants grown in controlled conditions and scanned daily with sub‑millimeter accuracy, yielding around 260 million labeled 3D points across growth stages. Each point cloud includes manual labels for semantic and instance tasks like leaf and stem segmentation - [Data](https://www.ipb.uni-bonn.de/data/pheno4d/index.html), [Paper](https://doi.org/10.1371/journal.pone.0256340)
+
 ## Tracking
 Tracking datasets provide annotated object trajectories across frames, useful for temporal consistency in detection and behavior prediction.
 - **Dataset on UAV RGB videos acquired over a vineyard including bunch labels for object detection and tracking**: https://www.sciencedirect.com/science/article/pii/S2352340922010514
@@ -140,10 +149,6 @@ These datasets support autonomous navigation, localization, and mapping in agric
 - **BotanicGarden**: A robot navigation dataset in a botanic garden of more than 48000m2. Comprehensive sensors are used, including Gray and RGB stereo cameras, spinning and MEMS 3D LiDARs, and low-cost and industrial-grade IMUs. An all-terrain wheeled robot is employed for data collection, traversing through thick woods, riversides, narrow trails, bridges, and grasslands. This yields 33 short and long sequences, forming 17.1km trajectories in total - https://github.com/robot-pesg/BotanicGarden
 - **Rosario**: A multi-modal dataset collected in a soybean crop field, comprising over two hours of recorded data from sensors such as stereo infrared camera, color camera, accelerometer, gyroscope, magnetometer, GNSS (Single Point Positioning, Real-Time Kinematic and Post-Processed Kinematic), and wheel odometry. This dataset captures key challenges inherent to robotics in agricultural environments - https://cifasis.github.io/rosariov2/
 - **BLT (Bacchus Long Term)**: A multi-session agricultural field dataset collected over months in vineyards (Greece and the UK), featuring seasonal variation, repeated traversal paths and onboard multimodal sensing (RGB-D, LiDAR, navigation). It is designed to support long-term mapping, localisation, crop phenotyping and generalisation studies in robotic agriculture - https://lcas.lincoln.ac.uk/wp/research/data-sets-software/blt/
-
-## Large-Scale and Unlabeled Datasets
-Collections of agricultural images or sensor data without manual annotations, useful for pretraining, self-supervised learning, domain adaptation, and large-scale phenotyping studies. These datasets provide broad coverage of crops, growth stages, and environmental conditions.
-- **ImAg4Wheat** — A massive annotated/unannotated wheat imagery dataset, aggregating over 2.5 million images across ~2,000 genotypes and ~500 environmental conditions from 10 countries, covering the full growth cycle (2010–2024) — [Data](https://huggingface.co/datasets/PheniX-Lab/ImAg4Wheat), [Model](https://huggingface.co/PheniX-Lab/FoMo4Wheat), [Paper](https://arxiv.org/abs/2509.06907)
 
 ## Collectors of datasets
 - **AgML** — An open-source, centralized Python framework for agricultural machine learning. It provides standardized access to public ag-vision datasets (classification, detection, segmentation) — https://github.com/Project-AgML/AgML
