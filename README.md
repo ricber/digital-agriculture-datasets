@@ -52,6 +52,7 @@ Datasets in this section are designed for tasks like plant species identificatio
 
 ## Semantic segmentation
 ### Crop and Weed datasets
+- **Crop Row Detection Lincoln Dataset (CRDLD)** — A crop-row detection / semantic segmentation dataset for agricultural robot navigation in maize and sugar beet fields. CRDLD v2.1 contains 2,000 field images (1,250 train / 500 test / 250 val), each paired with ground-truth row labels and MATLAB `.mat` files with labeled coordinates. The dataset spans 50 field-condition classes, including shadows, varying crop growth, weed density, discontinuities, slopes/curves, and tyre tracks. [CRDLD Dataset](https://github.com/JunfengGaolab/CropRowDetection)
 - **Sugar Beets 2016**: https://www.ipb.uni-bonn.de/data/sugarbeets2016/
 - **WeedMap**: A Large-Scale Semantic Segmentation Crop-Weed Dataset Using Aerial Color and Multispectral Imaging - https://projects.asl.ethz.ch/datasets/doku.php?id=weedmap:remotesensing2018weedmap
 - **WE3DS**: A dataset of RGB-D images acquired through a ground vehicle, with 2,568 annotated images containing 17 plant species (7 crops + 10 weeds) - https://zenodo.org/records/7457983
