@@ -23,6 +23,7 @@ Just make sure to include a short description with the dataset size (number of s
 4. [Instance Segmentation](#instance-segmentation-detection--segmentation)  
    - [Crop and Weed](#crop-and-weed-datasets-2)  
    - [Plant Instance and Plant Part](#plant-instance-and-plant-part-datasets-2)
+   - [Agricultural Objects datasets](#agricultural-objects-datasets)
 5. [Large-Scale and Unlabeled Image Datasets](#large-scale-and-unlabeled-image-datasets)
 6. [3D Plant and Point Cloud Datasets](#3d-plant-and-point-cloud-datasets)
 7. [Tracking](#tracking)  
@@ -57,10 +58,10 @@ Datasets in this section are designed for tasks like plant species identificatio
 - **WE3DS**: A dataset of RGB-D images acquired through a ground vehicle, with 2,568 annotated images containing 17 plant species (7 crops + 10 weeds) - https://zenodo.org/records/7457983
 ### Plant Instance and Plant Part datasets
 These datasets provide pixel-wise labels to distinguish between different plant parts, or between plants and soil.
-- **VegAnn**: VegAnn is a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation. It contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species. - Dataset: https://zenodo.org/records/7636408 - Paper: https://www.nature.com/articles/s41597-023-02098-y
+- **VegAnn**: VegAnn is a large multi-crop RGB Dataset acquired under diverse conditions for image segmentation. It contains 3775 labeled images (512*512 pixels) with two clases (Background and Vegetation). The dataset includes images of 26+ crop species — [Data](https://doi.org/10.5281/zenodo.7636408), [Paper](https://doi.org/10.1038/s41597-023-02098-y)
 - **Plant Growth Segmentation**: 2,008 high-resolution images with pixel-level semantic segmentation annotations of plant regions, captured over multiple growth stages. - https://www.kaggle.com/datasets/shengyou222/plantgrowthsegmentationdatase
 - **RiceSEG (Global Rice Multi-Class Segmentation Dataset)** — An RGB image dataset comprising images collected from five major rice-growing countries (China, Japan, India, Philippines, Tanzania), covering more than 6,000 rice genotypes over all growth stages. It contains 3,078 images annotated into six classes: background, green vegetation, senescent vegetation, panicle, weeds, and duckweed. [Data](https://www.global-rice.com), [Paper](https://www.sciencedirect.com/science/article/pii/S2643651525001050)
-- **The Capsicum annuum dataset**: This dataset consists of per-pixel annotated synthetic (10500) and empirical images (50) of Capsicum annuum, also known as sweet or bell pepper, situated in a commercial greenhouse. Furthermore, the source models to generate the synthetic images are included. Data: https://doi.org/10.4121/uuid:884958f5-b868-46e1-b3d8-a0b5d91b02c0 - Paper: https://doi.org/10.1016/j.compag.2017.12.001
+- **The Capsicum annuum dataset**: This dataset consists of per-pixel annotated synthetic (10500) and empirical images (50) of Capsicum annuum, also known as sweet or bell pepper, situated in a commercial greenhouse. Furthermore, the source models to generate the synthetic images are included — [Data](https://doi.org/10.4121/uuid:884958f5-b868-46e1-b3d8-a0b5d91b02c0), [Paper](https://doi.org/10.1016/j.compag.2017.12.001)
 ### Disease and Plant Health datasets
 - **RoCoLe (Robusta Coffee Leaf Images)**: 1,560 high-resolution images of coffee leaves, annotated for semantic segmentation tasks. Includes 2,329 labeled objects across 7 classes: healthy, unhealthy, rust_level_1, rust_level_2, rust_level_3, rust_level_4, and red_spider_mite. Captured under real-world conditions using a smartphone camera - https://doi.org/10.17632/c5yvn32dzg.2
 ### Scene understanding datasets (2D & 3D Semantic Segmentation)
